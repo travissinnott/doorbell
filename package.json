@@ -1,0 +1,30 @@
+{
+  "name": "doorbell",
+  "version": "1.0.0",
+  "description": "Activates doorbell actuator based on received UDP RPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/travissinnott/doorbell.git"
+  },
+  "keywords": [
+    "pi",
+    "raspberry",
+    "piface",
+    "doorbell",
+    "bell"
+  ],
+  "author": "Travis Sinnott <travis.sinnott@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travissinnott/doorbell/issues"
+  },
+  "homepage": "https://github.com/travissinnott/doorbell#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "piface": "^2.0.10"
+  }
+}
